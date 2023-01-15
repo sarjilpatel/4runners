@@ -1,0 +1,147 @@
+img.header_logo {
+  width: 150px;
+}
+
+img.footer_logo {
+  width: 200px;
+}
+
+.industries_selects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.industries_select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.industries_select>p {
+  width: 50%;
+}
+
+.industries_select>select {
+  width: 50%;
+}
+
+.newsletter_custom_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 80%;
+
+  color: white;
+
+  border: none;
+}
+
+.newsletter_custom_form_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter_custom_form_heading>h4,
+h6 {
+  color: white;
+}
+
+input.newsletter_custom_form_input {
+  width: 100%;
+  height: 40px;
+}
+
+input.newsletter_custom_form_input:focus {
+  background-color: white;
+}
+
+.newsletter_custom_form_input_wrapper {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+button.newsletter_custom_form_submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: transparent;
+  height: 40px;
+  color: white;
+  font-weight: 600;
+
+  transition: 0.5s all;
+}
+
+button.newsletter_custom_form_submit:hover {
+  color: #007aff !important;
+  background-color: white !important;
+}
+
+/* job grid  */
+
+.job_offers_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.job_offers_custom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.job_offer_card_custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 70px;
+  border: 1px solid black;
+  color: black;
+  background-color: rgba(81, 146, 255, 0.12);
+  font-weight: 800;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.list li {
+  margin-left: 20px;
+  list-style: circle;
+  font-size: 18px;
+  color: #586475;
+  line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+  .newsletter_custom_form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsletter_custom_form_input_wrapper {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .newsletter_custom_form_heading {
+    text-align: center;
+  }
+
+  input.newsletter_custom_form_input {
+    margin: 10px 0px;
+    font-size: 14px;
+  }
+}
