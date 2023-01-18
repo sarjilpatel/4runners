@@ -763,7 +763,7 @@ h6,
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 69px;
   line-height: 1.2;
 }
 
@@ -2672,10 +2672,14 @@ label {
 }
 
 .box-newsletter {
-  padding: 57px 0px 96px 138px;
-  background: url(../imgs/theme/bg-newsletter-top.svg) no-repeat 0px 0px;
+  padding: 40px 0px;
+  /* background: url(../imgs/theme/bg-newsletter-top.svg) no-repeat 0px 0px; */
+  background-color: #ff791f;
   background-size: cover;
-  border-bottom-right-radius: 40px;
+  border-radius: 40px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box-newsletter .box-form-newsletter {
@@ -3181,7 +3185,7 @@ label {
 }
 
 .header {
-  padding: 30px 0;
+  padding: 10px 0;
   float: left;
   width: 100%;
   position: absolute;
@@ -3972,7 +3976,6 @@ label {
   position: absolute;
   width: 24px;
   height: 20px;
-  display: none;
   cursor: pointer;
   -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -7931,9 +7934,6 @@ label {
 
 @media (max-width: 1399.98px) {
   .custom-class {
-    display: block;
-  }
-  .burger-icon {
     display: block;
   }
 }

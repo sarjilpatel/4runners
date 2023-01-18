@@ -18,11 +18,11 @@ img.footer_logo {
   justify-content: space-between;
 }
 
-.industries_select>p {
+.industries_select > p {
   width: 50%;
 }
 
-.industries_select>select {
+.industries_select > select {
   width: 50%;
 }
 
@@ -44,7 +44,7 @@ img.footer_logo {
   align-items: center;
 }
 
-.newsletter_custom_form_heading>h4,
+.newsletter_custom_form_heading > h4,
 h6 {
   color: white;
 }
@@ -114,6 +114,71 @@ button.newsletter_custom_form_submit:hover {
   font-weight: 800;
   border-radius: 8px;
   font-size: 1.2rem;
+}
+
+button.ras_button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s all;
+}
+
+p.offer_details_p {
+  margin: auto;
+}
+
+input.file_upload {
+  border: none;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+input.custom-file-input {
+  border: 2px solid white;
+  height: 100%;
+  border-radius: 4px;
+}
+.custom-file-input::before {
+  content: "Upload Your Resume";
+  border-radius: 2px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.newsletter_custom_form_heading > h3 {
+  color: white;
+}
+.newsletter_custom_form_heading > h6 {
+  color: white;
+}
+
+button.custom_button_card {
+  background-color: #565656;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 70px;
+  font-weight: 800;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+}
+button.custom_button_card:hover {
+  translate: 0px -5px;
+}
+
+p.offer_details_p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 .list li {
