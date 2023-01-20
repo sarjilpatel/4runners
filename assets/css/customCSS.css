@@ -172,13 +172,14 @@ button.custom_button_card {
 }
 button.custom_button_card:hover {
   translate: 0px -5px;
+  background-color: #6d4bd3 !important;
 }
 
 p.offer_details_p {
   text-align: center;
   font-weight: 700;
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .list li {
@@ -187,6 +188,32 @@ p.offer_details_p {
   font-size: 18px;
   color: #586475;
   line-height: 1.5;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.btn {
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+button:hover {
 }
 
 @media (max-width: 1000px) {
