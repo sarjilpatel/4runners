@@ -221,6 +221,11 @@ p.offer_details_p {
   background-repeat: no-repeat;
 }
 
+p.skills_p {
+  text-align: justify;
+  margin: 10px 0px;
+}
+
 @media (max-width: 1000px) {
   .newsletter_custom_form {
     width: 100%;

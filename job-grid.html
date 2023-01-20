@@ -52,8 +52,9 @@
 
                   <li><a href="blog-single.html">Employers</a></li>
                   <li>
-                    <a class="active" href="page-contact.html">Contact Us</a>
+                    <a class="active" href="#contactus">Contact Us</a>
                   </li>
+                  <li><a href="skills.html">Skills</a></li>
                 </ul>
               </nav>
               <div class="burger-icon burger-icon-white">
@@ -104,6 +105,9 @@
                   </li>
                   <li class="has-children">
                     <a href="page-contact.html">Contact Us</a>
+                  </li>
+                  <li class="has-children">
+                    <a href="skills.html">Skills</a>
                   </li>
                 </ul>
               </nav>
@@ -1607,11 +1611,10 @@
                 class="newsletter_custom_form_input"
                 placeholder="Give us a brief description of your needs"
               />
-              <input
-                type="file"
-                placeholder="upload your resume"
-                class="custom-file-input"
-              />
+              <div class="upload-btn-wrapper">
+                <button class="btn">Upload a file</button>
+                <input type="file" name="myfile" />
+              </div>
 
               <button class="newsletter_custom_form_submit">Submit</button>
             </form>
