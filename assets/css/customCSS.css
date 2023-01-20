@@ -213,7 +213,12 @@ p.offer_details_p {
   opacity: 0;
 }
 
-button:hover {
+.job_seekers_hero {
+  background: linear-gradient(90deg, #000000 0%, #0059ff00 130%),
+    url("../backdrop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 1000px) {
