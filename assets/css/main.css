@@ -37,6 +37,10 @@ TABLE CONTENT
 @import url(plugins/select2.min.css);
 @import url(plugins/perfect-scrollbar.css);
 /*RESET*/
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
 html,
 body,
 div,
@@ -117,13 +121,15 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+btn {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 main {
@@ -3982,6 +3988,7 @@ label {
   top: 45px;
   right: 27px;
   z-index: 999999;
+  display: none;
 }
 
 .burger-icon > span {
@@ -7942,6 +7949,9 @@ label {
   .custom-class {
     display: block;
   }
+  .burger-icon {
+    display: inherit;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -8125,6 +8135,10 @@ label {
   }
   .header-right {
     display: none;
+  }
+
+  .mobile-header-wrapper-inner {
+    z-index: 1000;
   }
   .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top {
     padding: 15px 30px 13px 30px;

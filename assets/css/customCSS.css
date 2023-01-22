@@ -1,5 +1,5 @@
 img.header_logo {
-  width: 150px;
+  width: 200px;
 }
 
 img.footer_logo {
@@ -90,7 +90,6 @@ button.newsletter_custom_form_submit:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
   margin: 30px 0;
 }
 
@@ -196,14 +195,15 @@ p.offer_details_p {
   display: inline-block;
   width: 100%;
 }
-
+.upload-btn-wrapper:hover {
+  cursor: pointer;
+}
 .btn {
   background-color: white;
   padding: 8px 20px;
   border-radius: 4px;
   width: 100%;
 }
-
 .upload-btn-wrapper input[type="file"] {
   font-size: 100px;
   width: 100%;
@@ -226,9 +226,35 @@ p.skills_p {
   margin: 10px 0px;
 }
 
+.single_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+
+.still_confused_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.still_confused_img {
+  height: 400px;
+  border-radius: 40px 0px 40px 0px;
+}
+
 @media (max-width: 1000px) {
   .newsletter_custom_form {
     width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .still_confused_section {
+    flex-direction: column;
+  }
+
+  .still_confused_img {
+    height: 300px;
   }
 }
 
