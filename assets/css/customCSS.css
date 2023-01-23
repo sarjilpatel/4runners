@@ -122,7 +122,7 @@ button.ras_button {
   border-radius: 4px;
   transition: 0.3s all;
 
-  background-color: #44b9de;
+  background-color: #72e0bf;
   color: white;
   font-weight: bold;
 }
@@ -134,28 +134,6 @@ p.offer_details_p {
   margin: auto;
 }
 
-input.file_upload {
-  border: none;
-}
-
-.custom-file-input::-webkit-file-upload-button {
-  visibility: hidden;
-}
-
-input.custom-file-input {
-  border: 2px solid white;
-  height: 100%;
-  border-radius: 4px;
-}
-.custom-file-input::before {
-  content: "Upload Your Resume";
-  border-radius: 2px;
-  outline: none;
-  white-space: nowrap;
-  -webkit-user-select: none;
-  cursor: pointer;
-}
-
 .newsletter_custom_form_heading > h3 {
   color: white;
 }
@@ -164,7 +142,7 @@ input.custom-file-input {
 }
 
 button.custom_button_card {
-  background-color: #44b9de;
+  background-color: #72e0bf;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,31 +174,46 @@ p.offer_details_p {
   line-height: 1.5;
 }
 
-.upload-btn-wrapper {
+input[type="file"] {
+  display: none;
+}
+label {
+  display: block;
   position: relative;
-  overflow: hidden;
-  display: inline-block;
-  width: 100%;
-}
-.upload-btn-wrapper:hover {
-  cursor: pointer;
-}
-.btn {
   background-color: white;
-  padding: 8px 20px;
-  border-radius: 4px;
+  color: gray;
+  font-size: 1.12em;
+  font-weight: 500;
   width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s all;
+  border: none !important;
 }
-.upload-btn-wrapper input[type="file"] {
-  font-size: 100px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
+label:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white !important;
+}
+#num-of-files {
+  font-weight: 400;
+  text-align: center;
+  margin: 1.25em 0 1.87em 0;
 }
 
 .job_seekers_hero {
+  background: linear-gradient(90deg, #000000 0%, #0059ff00 130%),
+    url("../backdrop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.employees_hero {
   background: linear-gradient(90deg, #000000 0%, #0059ff00 130%),
     url("../backdrop.jpg");
   background-position: center;
@@ -246,8 +239,16 @@ p.skills_p {
 }
 
 .still_confused_img {
-  height: 400px;
+  height: 500px;
   border-radius: 40px 0px 40px 0px;
+}
+
+.box-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px soid black;
 }
 
 @media (max-width: 1000px) {
@@ -284,10 +285,13 @@ p.skills_p {
   h4 {
     font-size: 35px;
     line-height: 37px;
-    text-align: center;
+    text-align: left;
   }
 
   p.offer_details_p {
     font-size: 1rem;
+  }
+  p.employee_note {
+    margin-top: 20px;
   }
 }

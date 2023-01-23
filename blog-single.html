@@ -17,9 +17,10 @@
       href="assets/imgs/favicon.png"
     />
     <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/customCSS.css" />
+
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
     <link rel="stylesheet" href="assets/css/main.css?v=1.0" />
+    <link rel="stylesheet" href="assets/css/customCSS.css" />
   </head>
 
   <body>
@@ -139,9 +140,9 @@
     <!--End header-->
     <!-- Content -->
     <main class="main">
-      <div class="archive-header pt-50 pb-50 text-center">
+      <div class="archive-header pt-50 pb-50 text-center employees_hero mb-30">
         <div class="container">
-          <h3 class="mb-30 text-center w-75 mx-auto">
+          <h3 class="mb-30 text-center w-75 mx-auto" style="color: white">
             Your Helping Hands in Hiring The Right One!
           </h3>
         </div>
@@ -188,7 +189,10 @@
                       Submit
                     </button>
 
-                    <p style="color: white; font-size: small">
+                    <p
+                      class="employee_note"
+                      style="color: white; font-size: small"
+                    >
                       Note: A representative will contact you within 24-48
                       business hours
                     </p>
@@ -309,6 +313,26 @@
                         </h5>
                       </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                      <div
+                        class="card-grid hover-up wow animate__animated animate__fadeInUp"
+                        data-wow-delay=".1s"
+                      >
+                        <div class="text-center">
+                          <a href="job-grid.html">
+                            <figure>
+                              <img
+                                alt="jobhub"
+                                src="assets/imgs/theme/icons/content-writer.svg"
+                              />
+                            </figure>
+                          </a>
+                        </div>
+                        <h5 class="text-center mt-20 card-heading">
+                          <a href="job-grid.html">Support</a>
+                        </h5>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -316,6 +340,7 @@
           </div>
         </div>
       </div>
+
       <section class="section-box mt-50 mb-60" id="contactus">
         <div class="container">
           <div class="box-newsletter">
@@ -345,20 +370,11 @@
                 class="newsletter_custom_form_input"
                 placeholder="Give us a brief description of your needs"
               />
-              <div class="upload-btn-wrapper">
-                <button
-                  class="btn"
-                  style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                  "
-                >
-                  <img style="height: 20px" src="./assets/pin.png" alt="" />
-                  Upload a file
-                </button>
-                <input type="file" name="myfile" />
-              </div>
+              <input type="file" id="file-input" multiple />
+              <label for="file-input">
+                <img src="./assets/pin.png" style="height: 20px" alt="" />
+                &nbsp; Upload Resume
+              </label>
 
               <button class="newsletter_custom_form_submit">Submit</button>
             </form>
