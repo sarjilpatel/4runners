@@ -129,6 +129,7 @@ button.ras_button {
 
 button.ras_button:hover {
   background-color: #6d4bd3 !important;
+  transform: scale(1.1);
 }
 p.offer_details_p {
   margin: auto;
@@ -274,6 +275,18 @@ img.custom_card_logo {
   .still_confused_img {
     display: none;
   }
+}
+
+.know_how {
+  background-color: #72e0bf !important;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 8px;
+  transition: 0.3s all;
+  color: white;
+}
+.know_how:hover {
+  transform: scale(1.2) !important;
 }
 
 @media (max-width: 600px) {
