@@ -250,6 +250,16 @@ p.skills_p {
   justify-content: center;
   border: 1px soid black;
 }
+img.explore_jobs_card_img {
+  max-height: 239px;
+}
+
+img.custom_card_logo {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background-color: #effffa;
+}
 
 @media (max-width: 1000px) {
   .newsletter_custom_form {
