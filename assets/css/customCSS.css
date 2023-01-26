@@ -253,6 +253,7 @@ p.skills_p {
 }
 img.explore_jobs_card_img {
   max-height: 239px;
+  object-fit: cover;
 }
 
 img.custom_card_logo {
@@ -287,6 +288,14 @@ img.custom_card_logo {
 }
 .know_how:hover {
   transform: scale(1.2) !important;
+}
+
+button:hover {
+  transform: scale(1.1) !important;
+}
+
+.leaflet-control-attribution {
+  display: none !important;
 }
 
 @media (max-width: 600px) {
