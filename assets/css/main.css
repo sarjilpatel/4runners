@@ -4297,7 +4297,7 @@ label {
   text-decoration: none;
 }
 
-.footer .footer-bottom .icon-socials {
+.footer .icon-socials {
   display: inline-block;
   margin-left: 10px;
   height: 30px;
@@ -4306,56 +4306,56 @@ label {
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials:hover {
+.footer .icon-socials:hover {
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-facebook {
+.footer .icon-socials.icon-facebook {
   background: url(../imgs/theme/icons/facebook.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-facebook:hover {
+.footer .icon-socials.icon-facebook:hover {
   background: url(../imgs/theme/icons/facebook-hover.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-twitter {
+.footer .icon-socials.icon-twitter {
   background: url(../imgs/theme/icons/twitter.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-twitter:hover {
+.footer .icon-socials.icon-twitter:hover {
   background: url(../imgs/theme/icons/twitter-hover.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-instagram {
+.footer .icon-socials.icon-instagram {
   background: url(../imgs/theme/icons/instagram.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-instagram:hover {
+.footer .icon-socials.icon-instagram:hover {
   background: url(../imgs/theme/icons/instagram-hover.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-linkedin {
+.footer .icon-socials.icon-linkedin {
   background: url(../imgs/theme/icons/linkedin.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
-.footer .footer-bottom .icon-socials.icon-linkedin:hover {
+.footer .icon-socials.icon-linkedin:hover {
   background: url(../imgs/theme/icons/linkedin-hover.svg) no-repeat 0px 0px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;

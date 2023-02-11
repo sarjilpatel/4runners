@@ -298,6 +298,21 @@ button:hover {
   display: none !important;
 }
 
+p.copyright_p {
+  width: 100%;
+  text-align: center;
+}
+
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.footer_description {
+  width: 50vw;
+}
+
 @media (max-width: 600px) {
   .newsletter_custom_form_input_wrapper {
     flex-direction: column;
@@ -325,5 +340,13 @@ button:hover {
   }
   p.employee_note {
     margin-top: 20px;
+  }
+
+  .footer_row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  p.footer_description {
+    width: 100%;
   }
 }
